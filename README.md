@@ -29,7 +29,7 @@ Bem-vindo ao nosso GitHub!!! Aqui apresentaremos tudo o que fizemos no nosso tra
 - Implementar algoritmos que buscam os dados coletados e sugiram filmes relaciondos com perifl do usuario.
 - Criar uma interface intuitiva e de fácil utilização que permita aos usuários explorar e descobrir filmes ideais para si.
 
--**Justificativa:** Atreavés de pesquisas realizadas pelo grupo é possivel vizualizar que a grande maioria dos usuários demonstra ter dificuldades na busca de filmes para assistir. De acordo com uma pesquisa recente realizado pelo nosso grupo, 96,4% dos entrevistados afirmaram sentir dúvida sobre qual filme escolher para assistir. Além disso, 94% relataram que utilizariam a plataforma apresentada pelo grupo. Portanto, há uma clara demanda por uma solução que facilite e melhore o processo de busca por filmes.
+- **Justificativa:** Atreavés de pesquisas realizadas pelo grupo é possivel vizualizar que a grande maioria dos usuários demonstra ter dificuldades na busca de filmes para assistir. De acordo com uma pesquisa recente realizado pelo nosso grupo, 96,4% dos entrevistados afirmaram sentir dúvida sobre qual filme escolher para assistir. Além disso, 94% relataram que utilizariam a plataforma apresentada pelo grupo. Portanto, há uma clara demanda por uma solução que facilite e melhore o processo de busca por filmes.
 
 ---
 
