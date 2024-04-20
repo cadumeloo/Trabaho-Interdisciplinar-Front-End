@@ -17,9 +17,9 @@ Bem-vindo ao nosso GitHub!!! Aqui apresentaremos tudo o que fizemos no nosso tra
 
 
 - **Público alvo:**
-  1- Faixa Etária: Principal foco em jovens adultos (18-ad35 anos) e ultos (35-50 anos) que buscam por entretenimento cinematográfico, podendo se expandir para o uso as outras faixas etárias.
-  2- Nível de Escolaridade: Não haverá restrições de nível de escolaridade.
-  3- Localização Geográfica: Inicialmente, o foco será em usuários brasileiros e feito em portugues(Brasil), com potencial para expansão para outros idiomas e países diferentes no futuro.
+  1. Faixa Etária: Principal foco em jovens adultos (18-ad35 anos) e ultos (35-50 anos) que buscam por entretenimento cinematográfico, podendo se expandir para o uso as outras faixas etárias.
+  2. Nível de Escolaridade: Não haverá restrições de nível de escolaridade.
+  3. Localização Geográfica: Inicialmente, o foco será em usuários brasileiros e feito em portugues(Brasil), com potencial para expansão para outros idiomas e países diferentes no futuro.
 
 
 - **Objetivo Geral:** Desenvolver um site que seja intuitivo e eficiente para recomendar filmes de acordo com as preferências de cada usuário, facilitando a escolha de filmes e aumentando a satisfação dos usuários com as experiências de pesquisa e de sessões de filmes nas plataformas de streaming.
