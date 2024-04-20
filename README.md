@@ -1,14 +1,14 @@
 # Trabaho-Interdisciplinar-Front-End
-Repositorio do trabalho de TI - Filmes com o seu perfil
+Repositorio do trabalho de TI
 ---
 
 ## 👋 Olá, mundo!
 
-Bem-vindo ao meu espaço digital! Sou Carlos Eduardo (Cadu), um apaixonado por Ciência da Computação e estudante na PUC Minas. Atualmente, estou imerso no universo da programação, explorando desde o front-end até linguagens de baixo nível, como C.
+Bem-vindo ao nosso GitHub!!! Aqui apresentaremos tudo o que fizemos no nosso trabalho, onde faremos um site para identificar filmes com o seu perfil.
 
 ---
 
-## 🚀 Habilidades
+## 🚀 Um pouco sobre o projeto
 
 - **Linguagens de Programação:** HTML, CSS, JavaScript, C
 - **Desenvolvimento Front-End:** -----
