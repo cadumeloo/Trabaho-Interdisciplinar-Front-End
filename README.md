@@ -25,9 +25,9 @@ Bem-vindo ao nosso GitHub!!! Aqui apresentaremos tudo o que fizemos no nosso tra
 - **Objetivo Geral:** Desenvolver um site que seja intuitivo e eficiente para recomendar filmes de acordo com as preferências de cada usuário, facilitando a escolha de filmes e aumentando a satisfação dos usuários com as experiências de pesquisa e de sessões de filmes nas plataformas de streaming.
 
 - **Objetivos específicos:**
-- Coletar informações sobre as preferências cinematográficas dos usuários por meio de questionários.
-- Implementar algoritmos que buscam os dados coletados e sugiram filmes relaciondos com perifl do usuario.
-- Criar uma interface intuitiva e de fácil utilização que permita aos usuários explorar e descobrir filmes ideais para si.
+ 1. Coletar informações sobre as preferências cinematográficas dos usuários por meio de questionários.
+ 2. Implementar algoritmos que buscam os dados coletados e sugiram filmes relaciondos com perifl do usuario.
+ 3. Criar uma interface intuitiva e de fácil utilização que permita aos usuários explorar e descobrir filmes ideais para si.
 
 - **Justificativa:** Atreavés de pesquisas realizadas pelo grupo é possivel vizualizar que a grande maioria dos usuários demonstra ter dificuldades na busca de filmes para assistir. De acordo com uma pesquisa recente realizado pelo nosso grupo, 96,4% dos entrevistados afirmaram sentir dúvida sobre qual filme escolher para assistir. Além disso, 94% relataram que utilizariam a plataforma apresentada pelo grupo. Portanto, há uma clara demanda por uma solução que facilite e melhore o processo de busca por filmes.
 
