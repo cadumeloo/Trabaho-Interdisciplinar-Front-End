@@ -1,0 +1,20 @@
+ <header>
+            <div class="logo">
+                <a href="homepage.html">
+                <img src="logo.png" alt="FilmFlock Logo">
+            </a>
+                <h1>FilmFlock</h1>
+            </div>
+            <div class="barra-pesquisa">
+                <input type="text" placeholder="Busque por filmes, diretores ou atores...">
+            </div>
+            <div class="usuario">
+                    <p>@usuario</p>
+                <a href="perfilusuario.html">
+                    <img src="foto_usuario.png" alt="User Profile">
+                </a>
+            </div>
+            <div class="faq">
+                <img src="faq.png" alt="FAQ">
+            </div>
+        </header>
