@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #000;
+    height: 65px;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 30px;
+    margin-left: 219px;
+    margin-right: 12px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .barra-pesquisa {
+    flex-grow: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 300px;
+    position: relative;
+    align-self: center;
+  }
+  
+  .barra-pesquisa input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    padding-left: 40px;
+  }
+  
+  .usuario {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  
+  .usuario img {
+    height: 28px;
+    width: 28px;
+    border-radius: 0;
+    margin-right: 100px;
+    margin-left: 12px;
+  }
+  
+  .faq {
+    display: flex;
+    height: 33px;
+    width: 33px;
+    margin-left: -80px;
+    margin-right: 40px;
+  }
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1; 
+    padding-right: 150px;
+}
