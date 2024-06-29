@@ -62,7 +62,7 @@ header {
   
   .faq {
     display: flex;
-    height: 33px;
+    height: 50px;
     width: 33px;
     margin-left: -80px;
     margin-right: 40px;
