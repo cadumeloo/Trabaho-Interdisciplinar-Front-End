@@ -1,7 +1,7 @@
  <header>
             <div class="logo">
-                <a href="homepage.html">
-                <img src="logo.png" alt="FilmFlock Logo">
+                <a href="index.html">
+                <img src="../images/logo.png" alt="FilmFlock Logo">
             </a>
                 <h1>FilmFlock</h1>
             </div>
@@ -10,11 +10,13 @@
             </div>
             <div class="usuario">
                     <p>@usuario</p>
-                <a href="perfilusuario.html">
-                    <img src="foto_usuario.png" alt="User Profile">
+                <a href="../pages/perfilusuario.html">
+                    <img src="../images/foto_usuario.png" alt="User Profile">
                 </a>
             </div>
+            <a href="../pages/faq.html">
             <div class="faq">
-                <img src="faq.png" alt="FAQ">
+                <img src="../images/faq.png" alt="FAQ">
+            </a>
             </div>
         </header>
