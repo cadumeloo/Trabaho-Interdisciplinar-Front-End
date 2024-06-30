@@ -1,0 +1,139 @@
+body {
+    background-color: #181818;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #000;
+    height: 65px;
+    font-family: Arial, sans-serif;
+  }
+
+  .faq {
+    display: flex;
+    height: 50px;
+    width: 33px;
+    margin-left: -80px;
+    margin-right: 40px;
+}
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 30px;
+    margin-left: 219px;
+    margin-right: 12px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+  }
+  
+  .barra-pesquisa {
+    flex-grow: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 300px;
+    position: relative;
+    align-self: center;
+  }
+  
+  .barra-pesquisa input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    padding-left: 40px;
+  }
+  
+  .usuario {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 20px;    
+    color: white;
+  
+  }
+  
+  .usuario img {
+    height: 28px;
+    width: 28px;
+    border-radius: 0;
+    margin-right: 100px;
+    margin-left: 12px;
+  }
+  
+  main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #1f1f1f;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+      text-align: left;
+      margin-bottom: 20px;
+      font-size: 28px;
+      color: #ffffff;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  label {
+      margin-bottom: 10px;
+      font-weight: 500;
+  }
+  
+  textarea, input[type="checkbox"] {
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #333;
+      color: white;
+  }
+  
+  button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #9270DB;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+      background-color: #9270DB;
+      transform: translateY(-2px);
+  }
+  
+  button:active {
+      background-color: #9270DB;
+      transform: translateY(0);
+  }
+  

@@ -1,0 +1,254 @@
+body {
+    background-color: #181818;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #000;
+    height: 65px;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 30px;
+    margin-left: 219px;
+    margin-right: 12px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .barra-pesquisa {
+    flex-grow: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 300px;
+    position: relative;
+    align-self: center;
+  }
+  
+  .barra-pesquisa input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    padding-left: 40px;
+  }
+  
+  .usuario {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  
+  .usuario img {
+    height: 28px;
+    width: 28px;
+    border-radius: 0;
+    margin-right: 100px;
+    margin-left: 12px;
+  }
+  
+  .faq {
+    display: flex;
+    height: 50px;
+    width: 33px;
+    margin-left: -80px;
+    margin-right: 40px;
+  }
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1; 
+    padding-right: 150px;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.profile {
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.favoritos {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.avatar img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+button#changeProfileButton {
+    background-color: #9270DB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+button#changeProfileButton:hover {
+    background-color: #9270DB;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #2F2F2F;
+}
+
+table tr {
+    cursor: pointer;
+}
+
+table tr:hover {
+    background-color: #333333;
+}
+
+.remove-button {
+    background-color: #9270DB;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.remove-button:hover {
+    background-color: #9270DB;
+}
+
+.all-movies {
+    width: 300px;
+    margin-left: 20px;
+    display: none;
+}
+
+.all-movies-list .movie-item {
+    width: 100%;
+    padding: 10px;
+    background-color: #2F2F2F;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.all-movies-list .movie-item:hover {
+    background-color: #333333;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #1E1E1E;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 8px;
+    color: white;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-option {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.profile-option:hover {
+    transform: scale(1.1);
+}
+
+.genre-label {
+    font-size: 14px; 
+    margin-top: 5px; 
+    color: #CCCCCC; 
+}

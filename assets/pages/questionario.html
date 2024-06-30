@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmFlock - Questionario</title>
+    <link rel="stylesheet" href="../css/questionario.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                <img src="../images/logo.png" alt="FilmFlock Logo">
+            </a>
+                <h1>FilmFlock</h1>
+            </div>
+            <div class="barra-pesquisa">
+                <input type="text" placeholder="Busque por filmes, diretores ou atores...">
+            </div>
+            <div class="usuario">
+                    <p>@usuario</p>
+                <a href="../pages/perfilusuario.html">
+                    <img src="../images/foto_usuario.png" alt="User Profile">
+                </a>
+            </div>
+            <a href="../pages/faq.html">
+            <div class="faq">
+                <img src="../images/faq.png" alt="FAQ">
+            </a>
+            </div>
+        </header>
+        <main>
+            <h1>Questionário de Preferências de Filmes</h1>
+    <form id="survey-form">
+        <label for="favorite-actors-directors">Quais seus atores favoritos?</label>
+        <textarea id="favorite-actors-directors" name="favorite-actors-directors"></textarea><br>
+
+        <label for="favorite-movies">Quais são os seus filmes favoritos?</label>
+        <textarea id="favorite-movies" name="favorite-movies"></textarea><br>
+
+        <label>Quais são seus gêneros de filme favoritos?</label><br>
+        <div id="genres">
+            <label><input type="checkbox" name="genres" value="ação"> Ação</label><br>
+            <label><input type="checkbox" name="genres" value="aventura"> Aventura</label><br>
+            <label><input type="checkbox" name="genres" value="animação"> Animação</label><br>
+            <label><input type="checkbox" name="genres" value="comédia"> Comédia</label><br>
+            <label><input type="checkbox" name="genres" value="crime"> Crime</label><br>
+            <label><input type="checkbox" name="genres" value="documentário"> Documentário</label><br>
+            <label><input type="checkbox" name="genres" value="drama"> Drama</label><br>
+            <label><input type="checkbox" name="genres" value="família"> Família</label><br>
+            <label><input type="checkbox" name="genres" value="fantasia"> Fantasia</label><br>
+            <label><input type="checkbox" name="genres" value="histórico"> Histórico</label><br>
+            <label><input type="checkbox" name="genres" value="terror"> Terror</label><br>
+            <label><input type="checkbox" name="genres" value="musical"> Musical</label><br>
+            <label><input type="checkbox" name="genres" value="romance"> Romance</label><br>
+            <label><input type="checkbox" name="genres" value="mistério"> Mistério</label><br>
+            <label><input type="checkbox" name="genres" value="suspense"> Suspense</label><br>
+            <label><input type="checkbox" name="genres" value="ficção científica"> Ficção Científica</label><br>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+    </main>
+    </div>
+    <script src="../js/questionario.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+    "Users": [
+      {
+        "ID": 1,
+        "username": "Invocação do Mal",
+        "senha": 1234
+      },
+      {
+        "ID": 2,
+        "username": "João da Silva",
+        "senha": "abcd"
+      },
+      {
+        "ID": 3,
+        "username": "Maria das Graças",
+        "senha": "efgh"
+      },
+      {
+        "ID": 4,
+        "username": "Pedro Gomes",
+        "senha": "ijkl"
+      },
+      {
+        "ID": 5,
+        "username": "Ana Paula",
+        "senha": "mnop"
+      }
+    ]
+  }
+  

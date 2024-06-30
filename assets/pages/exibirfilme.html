@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FilmFlock - Filme</title>
+  <link rel="stylesheet" href="../css/exibirfIlme.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="../images/logo.png" alt="FilmFlock Logo">
+      <h1>FilmFlock</h1>
+    </div>
+    <div class="barra-pesquisa">
+      <input type="text" placeholder="Busque por filmes, diretores ou atores...">
+    </div>
+    <div class="usuario">
+      <p>@usuario</p>
+      <img src="../images/foto_usuario.png" alt="User Profile">
+    </div>
+    <div class="faq">
+      <img src="../images/faq.png" alt="FAQ">
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <img src="" alt="Movie Image" class="img-fluid">
+          <h2 id="titulo">Nome do Filme</h2>
+          <p id="sinopse">Sinopse: </p>
+          <button class="botaoassisti">Já assisti</button>
+          <button class="botaoaddfav">Adicionar aos favoritos</button>
+          <button class="botaoplanejoassistir">Planejo assistir</button>
+          <button class="botaoavaliar"><a href="avaliacoes.html" class="b">Avaliar</a></button>
+          <h3>Categorias:</h3>
+          <p id="categorias">TEXTO</p>
+          <h3>Data de Lançamento:</h3>
+          <p id="lancamento">TEXTO</p>
+          <h3>Onde Encontrar:</h3>
+          <p id="ondeencontrar"></p>
+        </div>
+        <div class="col-md-4">
+          <h3>Diretor:</h3>
+          <p id="diretor">Nome do Diretor</p>
+          <h3>Atores:</h3>
+          <p id="atores"></p>
+          <h3>Trailers:</h3>
+          <h3>Avaliações:</h3>
+          <p id="imdb">IMDB: </p>
+          <p id="rotten">RottenTomatoes: </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <main id="main-content">
+  </main>
+
+  <script src="../js/exibirfIlme.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmFlock - Home</title>
+    <link rel="stylesheet" href="../css/styleHome.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+            <img src="../images/logo.png" alt="FilmFlock Logo">
+        </a>
+            <h1>FilmFlock</h1>
+        </div>
+        <div class="barra-pesquisa">
+            <input type="text" placeholder="Busque por filmes, diretores ou atores...">
+        </div>
+        <div class="usuario">
+                <p>@usuario</p>
+            <a href="../pages/perfilusuario.html">
+                <img src="../images/foto_usuario.png" alt="User Profile">
+            </a>
+        </div>
+        <a href="../pages/faq.html">
+        <div class="faq">
+            <img src="../images/faq.png" alt="FAQ">
+        </a>
+        </div>
+    </header>
+    <main>
+        <h1>Bem-vindo ao FilmFlock</h1>
+        <p>O site perfeito para recomendar filmes para você!!!</p>
+        <p>Selecione o botão “Fazer questionario” para preencher os dados para recomendar o filme perfeito de acordo com o seu perfil</p>
+        <button id="cadastro" onclick="navigateTo('../pages/cadastro.html')">Cadastro</button>
+        <button id="login" onclick="navigateTo('../pages/login.html')">Login</button>
+        <button id="questionario" onclick="navigateTo('../pages/questionario.html')">Fazer questionario</button>
+    </main>
+    <script src="../js/scriptHome.js"></script>
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

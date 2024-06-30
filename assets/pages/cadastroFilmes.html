@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Filmes - FilmFlock</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="../css/cadastroFIlmes.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="../images/logo.png" alt="FilmFlock Logo">
+          <h1>FilmFlock</h1>
+        </div>
+        <div class="barra-pesquisa">
+          <input type="text" placeholder="Busque por filmes, diretores ou atores...">
+        </div>
+        <div class="usuario">
+          <p>@usuario</p>
+          <img src="../images/foto_usuario.png" alt="User Profile">
+        </div>
+        <div class="faq">
+          <img src="../images/faq.png" alt="FAQ">
+        </div>
+      </header>
+    <div class="container">
+        <h1>Cadastro de filmes</h1>
+        <form id="movieForm">
+            <label for="nome">Nome do filme:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="sinopse">Sinopse:</label>
+            <textarea id="sinopse" name="sinopse" required></textarea>
+
+            <div class="selectCategories">
+            <label for="categorias">Categorias:</label>
+            <select id="categorias" name="categorias" required multiple>
+              <option value="Acao">Ação</option>
+              <option value="Aventura">Aventura</option>
+              <option value="Comedia">Comédia</option>
+              <option value="Drama">Drama</option>
+              <option value="Terror">Terror</option>
+              <option value="Ficcao">Ficção Científica</osption>
+              <option value="Fantasia">Fantasia</option>
+              <option value="Romance">Romance</option>
+              <option value="Misterio">Mistério</option>
+              <option value="Musical">Musical</option>
+              <option value="Animação">Animação</option>
+              <option value="Guerra">Guerra</option>
+              <option value="Documentario">Documentário</option>
+            </select>
+            </div>
+
+            <label for="data">Data de lançamento:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="ondeEncontrar">Onde Encontrar:</label>
+            <input type="text" id="ondeEncontrar" name="ondeEncontrar" required>
+
+            <label for="notas">Notas:</label>
+            <input type="text" id="imdb" name="imdb" placeholder="IMDB">
+            <input type="text" id="rottenTomatoes" name="rottenTomatoes" placeholder="Rotten Tomatoes">
+
+            <label for="foto">Coloque o link da foto do filme:</label>
+            <input type="text" id="fotofilme" name="fotofilme" required>
+
+            <label for="diretor">Diretor:</label>
+            <input type="text" id="diretor" name="diretor" required>
+
+            <label for="atores">Atores:</label>
+            <input type="text" id="atores" name="atores" required>
+
+            <div class="buttons">
+                <button type="submit" id="saveBtn">Salvar</button>
+                <button type="button" id="updateBtn">Alterar</button>
+                <button type="button" id="deleteBtn">Excluir</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="../js/cadastroFilmes.js"></script>
+
+</body>
+</html>
