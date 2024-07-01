@@ -105,11 +105,12 @@ button {
 
 #questionario {
     background-color: #BDB76B;
-    color: #000;
+    color: #fff;
 }
 
 button:hover {
     opacity: 0.8;
+    background-color: #e0e0e0;
 }
 
 .detalhes {
