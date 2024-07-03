@@ -35,10 +35,16 @@ function logar() {
         break;
       }
     }
+    user = {
+            "User": pegaUsuario,
+          }
+
+    user = JSON.stringify(user)
   
     if (validaLogin = true) {
       alert("sucesso");
-      location.href = 'index.html';
+      sessionStorage.setItem("UserLogado", user)
+      location.href = '../../index.html';
     } else {
       alert("Usuário ou senha incorreta");
     }

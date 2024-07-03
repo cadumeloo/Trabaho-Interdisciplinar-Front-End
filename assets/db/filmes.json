@@ -1,0 +1,233 @@
+{
+    "filme": [
+      {
+        "titulo": "Invocação do Mal",
+        "imagem": "assets/img/invocacaodomal.png",
+        "diretor": "James Wan",
+        "lancamento": "13/09/2013",
+        "imdb": "7,5/10",
+        "rotten": "86%",
+        "categoria": ["Terror", "Mistério"],
+        "sinopse": "Harrisville, Estados Unidos. Um casal (Ron Livinston e Lili Taylor) muda para uma casa nova ao lado de suas cinco filhas...",
+        "atores": [
+          {
+            "nome": "Vera Farmiga",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Patrick Wilson",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Ron Livingston",
+            "link": "atores.html"
+          }
+        ],
+        "trailers": [
+          {
+            "nome": "Trailer 1",
+            "link": "https://www.youtube.com/watch?v=GQrrXceHn2E"
+          },
+          {
+            "nome": "Trailer 2",
+            "link": "https://www.youtube.com/watch?v=eCzSHOfldQM"
+          }
+        ],
+        "streaming": [
+          {
+            "nome": "Max",
+            "link": "[URL do filme no streaming]"
+          },
+          {
+            "nome": "Amazon Prime Video",
+            "link": "[URL do filme no streaming]"
+          }
+        ]
+      },
+      {
+        "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+        "imagem": "assets/img/senhor-dos-aneis-sociedade-anel.png",
+        "diretor": "Peter Jackson",
+        "lancamento": "19/12/2001",
+        "imdb": "8,8/10",
+        "rotten": "91%",
+        "categoria": ["Aventura", "Fantasia"],
+        "sinopse": "Na Terra-Média, o hobbit Frodo Bolseiro recebe a missão de destruir o Anel do Poder enquanto forma uma irmandade para enfrentar Sauron e seus servos...",
+        "atores": [
+          {
+            "nome": "Elijah Wood",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Ian McKellen",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Viggo Mortensen",
+            "link": "atores.html"
+          }
+        ],
+        "trailers": [
+          {
+            "nome": "Trailer",
+            "link": "https://www.youtube.com/watch?v=Pki6jbSbXIY"
+          }
+        ],
+        "streaming": [
+          {
+            "nome": "Netflix",
+            "link": "[URL do filme no streaming]"
+          }
+        ]
+      },
+      {
+        "titulo": "Pulp Fiction: Tempo de Violência",
+        "imagem": "assets/img/pulp-fiction.png",
+        "diretor": "Quentin Tarantino",
+        "lancamento": "20/10/1994",
+        "imdb": "8,9/10",
+        "rotten": "92%",
+        "categoria": ["Crime", "Drama"],
+        "sinopse": "Diversas histórias se entrelaçam envolvendo personagens peculiares, incluindo dois assassinos profissionais, um pugilista e um gângster...",
+        "atores": [
+          {
+            "nome": "John Travolta",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Samuel L. Jackson",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Uma Thurman",
+            "link": "atores.html"
+          }
+        ],
+        "trailers": [
+          {
+            "nome": "Trailer",
+            "link": "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
+          }
+        ],
+        "streaming": [
+          {
+            "nome": "Prime Video",
+            "link": "[URL do filme no streaming]"
+          },
+          {
+            "nome": "HBO Max",
+            "link": "[URL do filme no streaming]"
+          }
+        ]
+      },
+      {
+        "titulo": "Interestelar",
+        "imagem": "assets/img/interestelar.png",
+        "diretor": "Christopher Nolan",
+        "lancamento": "06/11/2014",
+        "imdb": "8,6/10",
+        "rotten": "72%",
+        "categoria": ["Ficção Científica", "Drama"],
+        "sinopse": "Em um futuro próximo, a Terra está se tornando cada vez menos habitável. Um grupo de astronautas é enviado em uma missão através de um buraco de minhoca...",
+        "atores": [
+          {
+            "nome": "Matthew McConaughey",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Anne Hathaway",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Jessica Chastain",
+            "link": "atores.html"
+          }
+        ],
+        "trailers": [
+          {
+            "nome": "Trailer",
+            "link": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+          }
+        ],
+        "streaming": [
+          {
+            "nome": "Netflix",
+            "link": "[URL do filme no streaming]"
+          }
+        ]
+      },
+      {
+        "titulo": "Matrix",
+        "imagem": "assets/img/matrix.png",
+        "diretor": "The Wachowskis",
+        "lancamento": "31/03/1999",
+        "imdb": "8,7/10",
+        "rotten": "87%",
+        "categoria": ["Ação", "Ficção Científica"],
+        "sinopse": "Um hacker descobre a verdade sobre a realidade simulada em que vive e se junta a uma rebelião contra as máquinas que escravizaram a humanidade...",
+        "atores": [
+          {
+            "nome": "Keanu Reeves",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Laurence Fishburne",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Carrie-Anne Moss",
+            "link": "atores.html"
+          }
+        ],
+        "trailers": [
+          {
+            "nome": "Trailer",
+            "link": "https://www.youtube.com/watch?v=m8e-FF8MsqU"
+          }
+        ],
+        "streaming": [
+          {
+            "nome": "HBO Max",
+            "link": "[URL do filme no streaming]"
+          }
+        ]
+      },
+      {
+        "titulo": "O Rei Leão",
+        "imagem": "assets/img/rei-leao.png",
+        "diretor": "Roger Allers, Rob Minkoff",
+        "lancamento": "15/06/1994",
+        "imdb": "8,5/10",
+        "rotten": "93%",
+        "categoria": ["Animação", "Aventura"],
+        "sinopse": "O jovem leão Simba precisa enfrentar a responsabilidade de seu destino como rei após a morte de seu pai, o rei Mufasa...",
+        "atores": [
+          {
+            "nome": "Matthew Broderick",
+            "link": "atores.html"
+          },
+          {
+            "nome": "James Earl Jones",
+            "link": "atores.html"
+          },
+          {
+            "nome": "Jeremy Irons",
+            "link": "atores.html"
+          }
+        ],
+        "trailers": [
+          {
+            "nome": "Trailer",
+            "link": "https://www.youtube.com/watch?v=4sj1MT05lAA"
+          }
+        ],
+        "streaming": [
+          {
+            "nome": "Disney+",
+            "link": "[URL do filme no streaming]"
+          }
+        ]
+      }
+    ]
+  }
+  
