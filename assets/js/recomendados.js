@@ -1,24 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const moviesContainer = document.getElementById('movies-container');
 
-    const moviesData = [
-        {
-            "nome": "Filme X",
-            "imagem": "https://via.placeholder.com/50",
-            "link": "https://example.com/filme-x"
-        },
-        {
-            "nome": "Filme Y",
-            "imagem": "https://via.placeholder.com/50",
-            "link": "https://example.com/filme-y"
-        },
-        {
-            "nome": "Filme Z",
-            "imagem": "https://via.placeholder.com/50",
-            "link": "https://example.com/filme-z"
-        }
-    ];
-
+    // Função para exibir os filmes
     function displayMovies(movies) {
         moviesContainer.innerHTML = ''; // Limpa os filmes existentes
         movies.forEach(movie => {
@@ -27,11 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const movieImg = document.createElement('img');
             movieImg.src = movie.imagem;
-            movieImg.alt = `Imagem do filme ${movie.nome}`;
+            movieImg.alt = `Imagem do filme ${movie.titulo}`;
             
             const movieName = document.createElement('div');
             movieName.classList.add('movie-name');
-            movieName.textContent = movie.nome;
+            movieName.textContent = movie.titulo;
 
             movieItem.appendChild(movieImg);
             movieItem.appendChild(movieName);
@@ -43,17 +26,32 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Exibição inicial
-    displayMovies(moviesData);
+    // Função para buscar e filtrar os filmes
+    function fetchAndFilterMovies() {
+        // Buscar o JSON de filmes
+        fetch('../../assets/db/filmes.json')
+            .then(response => response.json())
+            .then(data => {
+                const movies = data.filme;
+                const surveyData = JSON.parse(localStorage.getItem("responses"));
 
-    // Simula o recebimento de novos dados
-    setTimeout(() => {
-        const newMovie = {
-            "nome": "Filme Novo",
-            "imagem": "https://via.placeholder.com/50",
-            "link": "https://example.com/filme-novo"
-        };
-        moviesData.push(newMovie);
-        displayMovies(moviesData);
-    }, 5000); // Adiciona um novo filme após 5 segundos
+                if (!surveyData) {
+                    // Se não houver dados do questionário no local storage, exibir todos os filmes
+                    displayMovies(movies);
+                    return;
+                }
+
+                // Filtrar os filmes com base nas respostas do questionário
+                const filteredMovies = movies.filter(movie => {
+                    return surveyData.some(response => response.favoriteMovies.includes(movie.titulo));
+                });
+
+                // Exibir os filmes filtrados
+                displayMovies(filteredMovies);
+            })
+            .catch(error => console.error("Erro ao buscar filmes:", error));
+    }
+
+    // Chamar a função para buscar e filtrar os filmes ao carregar a página
+    fetchAndFilterMovies();
 });

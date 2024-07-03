@@ -22,6 +22,8 @@ document.getElementById('survey-form').addEventListener('submit', function(event
     localStorage.setItem('responses', JSON.stringify(responses));
 
     document.getElementById('survey-form').reset();
+
+    location.href = "FilmesRecomendados.html"
 });
 
 document.addEventListener('DOMContentLoaded', function() {
