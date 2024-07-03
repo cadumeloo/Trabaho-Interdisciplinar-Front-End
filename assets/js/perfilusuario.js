@@ -4,38 +4,25 @@ document.addEventListener("DOMContentLoaded", function() {
             {
                 "genero": "Ficção Científica",
                 "filmes": [
-                    { "titulo": "Interestelar", "nota": "9.5/10" },
-                    { "titulo": "A Origem", "nota": "9.3/10" }
+                    { "titulo": "Invocação do Mal", "nota": "7,5/10" },
+                    { "titulo": "O Senhor dos Anéis: A Sociedade do Anel", "nota": "8,8/10" }
                 ]
             },
             {
                 "nome": "Drama",
                 "filmes": [
-                    { "titulo": "Um Sonho de Liberdade", "nota": "9.2/10" },
-                    { "titulo": "A Lista de Schindler", "nota": "9.0/10" }
+                    { "titulo": "Pulp Fiction: Tempo de Violência", "nota": "8,9/10" },
+                    { "titulo": "Interestelar", "nota": "8,6/10" }
                 ]
             },
             {
                 "nome": "Ação",
                 "filmes": [
-                    { "titulo": "O Cavaleiro das Trevas", "nota": "9.3/10" },
-                    { "titulo": "Gladiador", "nota": "8.8/10" }
+                    { "titulo": "Matrix", "nota": "8,7/10" },
+                    { "titulo": "O Rei Leão", "nota": "8,5/10" }
                 ]
             },
-            {
-                "nome": "Crime",
-                "filmes": [
-                    { "titulo": "O Poderoso Chefão", "nota": "9.5/10" },
-                    { "titulo": "Pulp Fiction", "nota": "9.0/10" }
-                ]
-            },
-            {
-                "nome": "Suspense",
-                "filmes": [
-                    { "titulo": "Seven - Os Sete Crimes Capitais", "nota": "8.6/10" },
-                    { "titulo": "Clube da Luta", "nota": "8.8/10" }
-                ]
-            }
+            
         ]
     };
 
