@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    background-color: #445566;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 900px;
+    margin: 50px auto;
+    display: flex;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    color: #8899AA;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .main-title {
+    color: #FFFFFF;
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .year {
+    color: #FFFFFF;
+    font-size: 24px;
+  }
+  
+  .text-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .data-section, .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .section label, .plataforma-section p {
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #8899AA;
+  }
+  
+  .custom-date, .custom-plataforma {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+  }
+  
+  .custom-date::-webkit-datetime-edit {
+    color: #8899AA;
+  }
+  
+  .custom-date::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  .custom-date::-webkit-calendar-picker-indicator {
+    color: #8899AA;
+  }
+  
+  .custom-date::-webkit-input-placeholder {
+    color: #8899AA;
+  }
+  
+  .custom-date::-moz-placeholder {
+    color: #8899AA;
+  }
+  
+  .input-section {
+    width: 30%;
+    display: inline-block;
+  }
+  
+  .box2 {
+    width: 100%;
+    flex: 0 0 60%;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .box {
+    flex: 0 0 20%;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  textarea {
+    background-color: #CCDDEE;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 10px;
+    flex-grow: 1;
+  }
+  
+  .filme-poster {
+    height: 500px;
+    width: 300px;
+  }
+  
+  .avaliacao-like {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .avaliacao span, .like-section span, .data-section p {
+    color: #8899AA;
+  }
+  
+  .estrelas {
+    font-size: 30px;
+  }
+  
+  .estrela {
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .estrela.ativa {
+    color: yellow;
+  }
+  
+  .like-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .like-section span {
+    margin-bottom: 5px;
+  }
+  
+  .coracao {
+    background-color: transparent;
+    border: none;
+    color: #8899AA;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .coracao.ativo {
+    color: red;
+  }
+  
+  .data-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .data-section p {
+    margin-right: 100px;
+  }
+  
+  .custom-date {
+    color: #8899AA;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 3px;
+    width: 100px;
+    box-sizing: border-box;
+  }
+  
+  .custom-date::-webkit-datetime-edit {
+    color: #8899AA;
+  }
+  
+  .custom-date::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  .custom-date::-webkit-calendar-picker-indicator {
+    color: #8899AA;
+  }
+  
+  .custom-date::-webkit-input-placeholder {
+    color: #8899AA;
+  }
+  
+  .custom-date::-moz-placeholder {
+    color: #8899AA;
+  }
+  
+  #salvar {
+    background-color: #9270DB;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end; /* Mantém o botão no canto direito */
+  }

@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação do Filme</title>
+    <link rel="stylesheet" href="../css/avaliaçao.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/sistema de valiaço/imgs/oppenhaimer poster 4k.png" class="filme-poster">
+        </div>
+
+        <div class="box2">
+            <div class="header">
+                <p class="title">EU ASSISTI...</p>
+                <h1 class="main-title" id="title"> <span class="year">2023</span></h1>
+            </div>
+
+            <div>
+                <textarea id="texto" placeholder="Adicione uma review..."></textarea>
+            </div>
+
+            <div class="text-container">
+                <div class="section">
+                    <label>Assisti em:</label>
+                    <input type="text" id="data" class="custom-date" placeholder="Dia/Mes/Ano" maxlength="10" oninput="formatarData(this)">
+                </div>
+                <div class="section">
+                    <label>Plataforma que assisti:</label>
+                    <input type="text" id="plataforma" class="custom-plataforma" placeholder="ex: Netflix">
+                </div>
+            </div>
+
+            <div class="avaliacao-like">
+                <div class="like-section">
+                    <span>Like</span>
+                    <button class="coracao" onclick="curtirFilme(this)">&#10084;</button>
+                </div>
+                <div class="avaliacao">
+                    <span>Nota</span>
+                    <div class="estrelas">
+                        <span class="estrela">&#9733;</span>
+                        <span class="estrela">&#9733;</span>
+                        <span class="estrela">&#9733;</span>
+                        <span class="estrela">&#9733;</span>
+                        <span class="estrela">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <button id="salvar" onclick="salvarPublicacao()">Salvar</button>
+        </div>
+    </div>
+    <script src="../js/avaliacaoJS.js"></script>
+</body>
+
+</html>
