@@ -1,0 +1,39 @@
+{
+    "Ator": {
+        "nome": "Anne Hathaway",
+        "foto": "../images/anne.jpg",
+        "nascimento": "12/11/1982 (41 anos)",
+        "nacionalidade": "<br>Norte-Americana",
+        "cidade": "Nova York, NY, EUA",
+        "atividade": "1999 - Presente",
+        "biografia": "Anne Jacqueline Hathaway (Nova Iorque, 12 de novembro de 1982) é uma atriz norte-americana. Recebedora de vários prêmios, incluindo um Oscar, um Globo de Ouro e um Prêmio Primetime Emmy, ela estava entre as atrizes mais bem pagas do mundo em 2015. Seus filmes arrecadaram mais de US$6,8 bilhões em todo o mundo, e ela apareceu na lista Forbes Celebrity 100 em 2009.<br><br> Hathaway se formou na Millburn High School em Nova Jersey, onde se apresentou em várias peças. Quando adolescente, ela foi escalada para a série de televisão Get Real (1999-2000) e fez seu avanço interpretando o papel principal na comédia da Disney O Diário da Princesa (2001). Depois de estrelar uma série de filmes familiares, Hathaway fez uma transição para papéis adultos com os dramas de 2005 Havoc e O Segredo de Brokeback Mountain. A comédia-drama O Diabo Veste Prada (2006), no qual ela interpretou uma assistente de uma editora de revista de moda, foi seu maior sucesso comercial até aquele momento. Ela interpretou uma viciada em recuperação no drama Rachel Getting Married (2008), que lhe rendeu uma indicação ao Oscar de Melhor Atriz.",
+        "filmes": [
+            {
+                "titulo": "O Diabo Veste Prada",
+                "poster": "../images/prada.jpg",
+                "urlFilme": "https://letterboxd.com/film/the-devil-wears-prada/"
+            },
+            {
+                "titulo": "Interestelar",
+                "poster": "../images/interestelar.jpg",
+                "urlFilme": "https://letterboxd.com/film/interstellar/"
+            },
+            {
+                "titulo": "Oito Mulheres e Um Segredo",
+                "poster": "../images/oceans8.jpg",
+                "urlFilme": "https://letterboxd.com/film/oceans-eight/"
+            },
+            {
+                "titulo": "O Diário da Princesa",
+                "poster": "../images/diarioprincesa.jpg",
+                "urlFilme": "https://letterboxd.com/film/the-princess-diaries/"
+            }
+        ],
+        "redessociais": 
+            {
+                "instagram": "https://www.instagram.com/annehathaway/",
+                "twitter": "https://www.imdb.com/name/nm0004266/",
+                "facebook": "https://www.facebook.com/Hathaway"
+            }
+    }
+}
