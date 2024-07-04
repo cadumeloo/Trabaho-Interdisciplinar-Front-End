@@ -36,7 +36,7 @@
       },
       {
         "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
-        "imagem": "assets/img/senhor-dos-aneis-sociedade-anel.png",
+        "imagem": "https://lh3.google.com/u/2/d/1O60lGyL3jufPMFjElhGqyR0AoCerFXua=w1292-h919-iv1",
         "diretor": "Peter Jackson",
         "lancamento": "19/12/2001",
         "imdb": "8,8/10",
@@ -66,7 +66,7 @@
       },
       {
         "titulo": "Pulp Fiction: Tempo de Violência",
-        "imagem": "assets/img/pulp-fiction.png",
+        "imagem": "https://lh3.google.com/u/2/d/11kZfZRjAIO672j5oiN1zC14tKrOfizTi=w1292-h919-iv1",
         "diretor": "Quentin Tarantino",
         "lancamento": "20/10/1994",
         "imdb": "8,9/10",
@@ -100,7 +100,7 @@
       },
       {
         "titulo": "Interestelar",
-        "imagem": "assets/img/interestelar.png",
+        "imagem": "https://lh3.google.com/u/2/d/1p5fNQv747Nsn_255ctuDkPPNW31TehFI=w2000-h1410-iv1",
         "diretor": "Christopher Nolan",
         "lancamento": "06/11/2014",
         "imdb": "8,6/10",
@@ -130,7 +130,7 @@
       },
       {
         "titulo": "Matrix",
-        "imagem": "assets/img/matrix.png",
+        "imagem": "https://lh3.google.com/u/2/d/1JT8gxKhTcM7Ma_PlnsOjwigaYRMxaC_4=w2000-h1410-iv1",
         "diretor": "The Wachowskis",
         "lancamento": "31/03/1999",
         "imdb": "8,7/10",
@@ -160,7 +160,7 @@
       },
       {
         "titulo": "O Rei Leão",
-        "imagem": "assets/img/rei-leao.png",
+        "imagem": "https://lh3.google.com/u/2/d/1mC1ADfcrXt0x_sooIbW8Y_3Jb4vUzcbj=w1292-h919-iv1",
         "diretor": "Roger Allers, Rob Minkoff",
         "lancamento": "15/06/1994",
         "imdb": "8,5/10",
