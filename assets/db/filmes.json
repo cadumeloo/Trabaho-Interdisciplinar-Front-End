@@ -2,7 +2,7 @@
     "filme": [
       {
         "titulo": "Invocação do Mal",
-        "imagem": "assets/img/invocacaodomal.png",
+        "imagem": "https://lh3.google.com/u/2/d/18BRem4OV4ACVpgHPSqo0DKatE13Rlz77=w1920-h919-iv1",
         "diretor": "James Wan",
         "lancamento": "13/09/2013",
         "imdb": "7,5/10",
@@ -21,16 +21,6 @@
           {
             "nome": "Ron Livingston",
             "link": "atores.html"
-          }
-        ],
-        "trailers": [
-          {
-            "nome": "Trailer 1",
-            "link": "https://www.youtube.com/watch?v=GQrrXceHn2E"
-          },
-          {
-            "nome": "Trailer 2",
-            "link": "https://www.youtube.com/watch?v=eCzSHOfldQM"
           }
         ],
         "streaming": [
@@ -67,12 +57,6 @@
             "link": "atores.html"
           }
         ],
-        "trailers": [
-          {
-            "nome": "Trailer",
-            "link": "https://www.youtube.com/watch?v=Pki6jbSbXIY"
-          }
-        ],
         "streaming": [
           {
             "nome": "Netflix",
@@ -101,12 +85,6 @@
           {
             "nome": "Uma Thurman",
             "link": "atores.html"
-          }
-        ],
-        "trailers": [
-          {
-            "nome": "Trailer",
-            "link": "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
           }
         ],
         "streaming": [
@@ -143,12 +121,6 @@
             "link": "atores.html"
           }
         ],
-        "trailers": [
-          {
-            "nome": "Trailer",
-            "link": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
-          }
-        ],
         "streaming": [
           {
             "nome": "Netflix",
@@ -179,12 +151,6 @@
             "link": "atores.html"
           }
         ],
-        "trailers": [
-          {
-            "nome": "Trailer",
-            "link": "https://www.youtube.com/watch?v=m8e-FF8MsqU"
-          }
-        ],
         "streaming": [
           {
             "nome": "HBO Max",
@@ -213,12 +179,6 @@
           {
             "nome": "Jeremy Irons",
             "link": "atores.html"
-          }
-        ],
-        "trailers": [
-          {
-            "nome": "Trailer",
-            "link": "https://www.youtube.com/watch?v=4sj1MT05lAA"
           }
         ],
         "streaming": [

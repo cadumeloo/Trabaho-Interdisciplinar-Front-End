@@ -53,7 +53,7 @@ async function fetchJsonData(url) {
 
 
 // Função para criar o HTML de cada card de filme
-function criarCardFilme(filme) {
+/* function criarCardFilme(filme) {
     // Codificar o título do filme para ser usado na URL
     const tituloCodificado = encodeURIComponent(filme.titulo);
     
@@ -76,5 +76,5 @@ function criarCardFilme(filme) {
         </a>
       </div>
     `;
-  }
+  }*/
   
